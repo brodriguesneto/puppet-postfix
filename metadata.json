@@ -1,0 +1,29 @@
+{
+  "author": "Boaventura Rodrigues Neto",
+  "checksums": {
+    "manifests/install.pp": "9e11f37559a6663086757936d87dc6a4",
+    "templates/main.cf.erb": "ed12037f7f26bdbd5b75c0b22645cf94",
+    "manifests/service.pp": "5461b75b64a9577ae6bf4bc1c8b1c372",
+    "README": "36083c8d88e98f0f6799d56d348c24f6",
+    "Modulefile": "0b6dc754808251b8c50e414c2ac640e3",
+    "tests/init.pp": "e40fe68331a059da18ff19c0f587c143",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "LICENSE": "6c4db32a2fa8717faffa1d4f10136f47",
+    "templates/master.cf.erb": "b9e49cce49b56d58725dffacf1a6a100",
+    "manifests/params.pp": "7db408679c62ac69f3112091cfdd12f2",
+    "manifests/init.pp": "9be1b19a8c2ac5c99bd3681c61b5be5f",
+    "Vagrantfile": "b5237a42ae09138cf3797fa2847743bb",
+    "vagrant_ubuntu_bootstrap.sh": "1903d343b00cabf5baf6ab13068de7df",
+    "manifests/config.pp": "84dc355c9c6f3e0003ddeb1df052c799",
+    "README.md": "60802787d9f6808f5f46d0aa2513d5ca"
+  },
+  "dependencies": [],
+  "description": "Module to install and manages Postfix via puppet",
+  "license": "Apache License, Version 2.0",
+  "name": "brodriguesneto-postfix",
+  "project_page": "https://github.com/brodriguesneto/puppet-postfix",
+  "source": "https://github.com/brodriguesneto/puppet-postfix",
+  "summary": "Module to install and manages Postfix via puppet",
+  "types": [],
+  "version": "0.1.0"
+}
