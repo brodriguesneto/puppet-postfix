@@ -2,7 +2,7 @@ class postfix::params {
   case $::operatingsystem {
     'Ubuntu' : {
       case $::lsbdistrelease {
-        /(12.04|14.04)/ : {
+        /(12.04|14.04|14.10)/ : {
           $package        = 'postfix'
           $packages_extra = 'mailutils'
           $service        = 'postfix'

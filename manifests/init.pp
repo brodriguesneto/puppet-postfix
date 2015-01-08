@@ -1,5 +1,5 @@
 # Class: postfix
-class postfix ($ensure = 'present', $autoupgrade = false,) inherits postfix::params {
+class postfix ($ensure = 'present', $autoupgrade = false, $relayhost = 'smtp.google.com') inherits postfix::params {
   case $ensure {
     /(present)/ : {
       if $autoupgrade == true {
